@@ -113,6 +113,10 @@
                 'orderId': 0,
                 'price': 0,
                 'status': '',
+                'qty': 0,
+                'address': '',
+                'foodId': '',
+                'foodname': '',
             }
         },
         methods:{

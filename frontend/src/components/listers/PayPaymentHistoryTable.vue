@@ -71,6 +71,10 @@
                     { text: "orderId", value: "orderId" },
                     { text: "price", value: "price" },
                     { text: "status", value: "status" },
+                    { text: "qty", value: "qty" },
+                    { text: "address", value: "address" },
+                    { text: "foodId", value: "foodId" },
+                    { text: "foodname", value: "foodname" },
                 ],
             paymentHistory : [],
             newValue: {},
@@ -92,6 +96,10 @@
                 'orderId': 0,
                 'price': 0,
                 'status': '',
+                'qty': 0,
+                'address': '',
+                'foodId': '',
+                'foodname': '',
             }
         },
         methods: {

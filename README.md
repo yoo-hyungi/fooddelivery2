@@ -43,7 +43,7 @@ mvn spring-boot:run
 ```
 - pay
 ```
- http :8088/paymentHistories id="id" userId="userId" orderId="orderId" price="price" status="status" 
+ http :8088/paymentHistories id="id" userId="userId" orderId="orderId" price="price" status="status" qty="qty" address="address" foodId="foodId" foodname="foodname" 
 ```
 - customercenter
 ```

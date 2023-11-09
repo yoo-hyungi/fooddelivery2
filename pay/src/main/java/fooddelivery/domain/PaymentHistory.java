@@ -27,6 +27,14 @@ public class PaymentHistory {
 
     private String status;
 
+    private Integer qty;
+
+    private String address;
+
+    private String foodId;
+
+    private String foodname;
+
     @PostPersist
     public void onPostPersist() {
         PaymentApproved paymentApproved = new PaymentApproved(this);
